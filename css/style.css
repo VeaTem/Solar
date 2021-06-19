@@ -164,3 +164,165 @@ ul {
 .info__tabs-items {
     margin-bottom: 120px;
 }
+
+.info__tabs-item {
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 40px;
+}
+
+.info__tabs-item--active {
+    border-bottom: 1px solid #303030;
+}
+
+.info__tabs-content {
+    display: none;
+}
+
+.info__tabs-content--active {
+    display: block;
+}
+
+.info__slider {
+    max-width: 510px;
+}
+
+.info__slider-img {
+    margin-right: 40px;
+    float: left;
+}
+
+.info__slider-text {
+    padding-bottom: 15px;
+}
+
+.slick-arrow {
+    position: absolute;
+    left: 275px;
+    bottom: -3px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.slick-right {
+    left: 340px;
+}
+
+.info__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list__items {
+    flex-basis: 235px;
+    margin-bottom: 17px;
+}
+
+.list__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.blockquote {
+    padding: 128px 10px 144px;
+    background-image: url(../images/blockquote.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 150px;
+}
+
+.blockquote__text {
+    max-width: 670px;
+    margin: 0 auto;
+    font-size: 42px;
+    line-height: 57px;
+    color: white;
+}
+
+.clients {
+    margin-bottom: 150px;
+}
+
+.clients__slider-box {
+    display: flex;
+}
+
+.clients__img {
+    flex-basis: 510px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+}
+
+.clients__title {
+    max-width: 478px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.clients__list {
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.clients__list-item {
+    margin-bottom: 15px;
+}
+
+.slick-arrow path {
+    transition: fill .5s;
+}
+
+.slick-arrow:hover path {
+    fill: #A9A32A;
+}
+
+.step {
+    margin-bottom: 150px;
+}
+
+.step__inner {
+    display: flex;
+}
+
+.step__content {
+    margin-right: 90px;
+}
+
+.step__list {
+    list-style: none;
+    counter-reset: number;
+}
+
+.step__list-items {
+    counter-increment: number;
+    margin-bottom: 30px;
+}
+
+.step__list-items::before {
+    content: "0" counter(number);
+    margin-bottom: 11px;
+    color: #868585;
+}
+
+.step__list-items:nth-child(n+10)::before {
+    content: counter(number);
+}
+
+.step__list-title {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.step__img {
+    flex-basis: 600px;
+    object-fit: cover;
+}
