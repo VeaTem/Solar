@@ -132,3 +132,35 @@ ul {
 .service__img {
     object-fit: cover;
 }
+
+.info {
+    margin-bottom: 150px;
+}
+
+.info__inner {
+    display: flex;
+}
+
+.info__box {
+    flex-basis: 510px;
+    margin-right: 90px;
+}
+
+.info__content {
+    flex-basis: 600px;
+}
+
+.info__content-text {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 17px;
+    font-weight: 700;
+}
+
+.info__tabs {
+    margin-bottom: 100px;
+}
+
+.info__tabs-items {
+    margin-bottom: 120px;
+}
